@@ -416,6 +416,7 @@ public class UTF8StringSuite {
       )));
   }
 
+
   @Test
   public void createBlankString() {
     assertEquals(UTF8String.fromString(" "), UTF8String.blankString(1));
