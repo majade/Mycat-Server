@@ -414,12 +414,6 @@ public class UTF8StringSuite {
         'l', '\0',
         't', '\0'
       )));
-    assertEquals(
-      UTF8String.fromString("aa世b"),
-      UTF8String.fromString("花花世界").translate(ImmutableMap.of(
-        '花', 'a',
-        '界', 'b'
-      )));
   }
 
   @Test
